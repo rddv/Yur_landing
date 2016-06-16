@@ -1,0 +1,140 @@
+Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp
+
+05-05-2016 09:44:
+C:\Users\D\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Cannot find module 'gulp'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (D:\site\test2\.sublime-gulp-tmp.js:1:80)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+
+
+05-12-2016 14:43:
+D:\site\test2\.sublime-gulp-tmp.js:47
+		'app/libs/owl.carousel/owl.carousel.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at requireGulp (C:\Users\D\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\D\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:409:26)
+
+
+05-12-2016 14:43:
+D:\site\test2\.sublime-gulp-tmp.js:47
+		'app/libs/owl.carousel/owl.carousel.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at requireGulp (C:\Users\D\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\D\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:409:26)
+
+
+05-18-2016 16:21:
+C:\Users\D\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Cannot find module 'gulp-sass'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (H:\test2\.sublime-gulp-tmp.js:2:17)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+
+
+05-18-2016 16:28:
+C:\Users\D\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Cannot find module 'through2-concurrent'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (H:\test2\node_modules\gulp-imagemin\index.js:4:15)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+
+
+05-20-2016 13:17:
+C:\Users\Teacher\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Missing binding F:\test2\node_modules\gulp-sass\node_modules\node-sass\vendor\win32-x64-47\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 5.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 4.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to build the binding for your current environment.
+    at Object.<anonymous> (F:\test2\node_modules\gulp-sass\node_modules\node-sass\lib\index.js:14:11)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:16:19)
+    at Object.<anonymous> (F:\test2\node_modules\gulp-sass\index.js:187:21)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+
+
+05-21-2016 17:21:
+C:\Users\Den\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Missing binding F:\test2\node_modules\gulp-sass\node_modules\node-sass\vendor\win32-ia32-46\binding.node
+Node Sass could not find a binding for your current environment: Windows 32-bit with Node.js 4.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 4.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to build the binding for your current environment.
+    at Object.<anonymous> (F:\test2\node_modules\gulp-sass\node_modules\node-sass\lib\index.js:14:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (F:\test2\node_modules\gulp-sass\index.js:187:21)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)

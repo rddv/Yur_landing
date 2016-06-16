@@ -1,0 +1,237 @@
+@import "bourbon"
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.menu-main
+		display: none
+		min-width: 320px
+		float: right
+		text-align: right
+		background-color: #1c242c
+		position: absolute
+		right: 15px
+		top: 0
+		z-index: 2
+		ul
+			li
+				display: block
+				padding: 0
+				
+				a
+					display: block
+					line-height: 48px
+					padding: 0 30px 
+
+					&:hover
+						background-color: #273646
+	.phone
+		padding-right: 55px
+	.s2-items
+		margin-top: 30px
+		padding-bottom: 0
+	.arrows-container
+		.arrow
+			margin-bottom: 14px
+			&:first-child
+				margin-left: -40px
+	.s8
+		&__item
+				.img_wrap
+					p
+						font-size: em(13px)
+	.footer
+		.menu-main
+			position: relative
+			margin-right: -10px
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+	.header_bottom__services
+		margin-top: 50px
+		padding: 0px
+	.menu-main
+		top: 58px
+		z-index: 2
+	.h
+		padding-top: 10px
+		&__triangle
+			background-size: cover
+			text-align: center
+	.forms
+		padding-top: 0
+	.s8
+		.h-header
+			h2
+				text-align: center
+				&::after
+					left: 50%
+					transform: translate(-50%, 0px)
+			p
+				text-align: center
+
+	
+	.s8
+		form.form--bottom
+			margin-top: 0
+	.footer
+		&__content
+			padding-top: 25px
+			.menu-main
+				top: 20px
+		
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header_bottom__services
+		h1
+			font-size: em(38px)
+	.h-header
+		margin-bottom: 10px
+	.h-item_info_wrap
+			&:nth-child(4)
+				padding-left: 0px
+				margin-left: 15px
+			&:nth-child(3),
+			&:nth-child(9)
+				.h-item_info
+					padding-left: 0px
+	.h-item_info
+		max-width: 100%
+		margin-top: 20px
+		margin-bottom: 20px
+		margin-left: 0px
+		padding-left: 0px
+		min-height: 1px
+		&--down
+			padding-top: 0
+		&--up
+			margin-top: 0px
+		&--up_small
+			margin-top: 0px
+			margin-bottom: 0
+		&--left
+			padding-left: 15px
+		&--right
+			padding-left: 0px
+			margin-left: 0px
+		p
+			padding-bottom: 0
+	.h-bottom--blue
+		margin-top: 20px
+	.s2-item
+		margin-bottom: 10px
+		min-height: 230px
+	.section3
+		.s3
+			padding-top: 0
+			margin-top: 0
+			min-height: 600px
+	.s3-img_wrap
+		display: none
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+	
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.phone-container
+		.phone
+			font-size: em(14px)
+			line-height: 30px
+			padding-right: 40px
+
+		.toggle-menu
+			line-height: 10px
+			width: 20px
+			height: 15px
+			margin: 15px auto 5px
+
+	.logo
+		img
+			width: 80px
+	.header_bottom__services
+		h1
+			font-size: em(27px)
+	.h
+		&-item_info::last-child
+			margin-bottom: 20px
+			overflow: hidden
+	.section5
+		.arrows-container
+			.arrow
+				margin-left: 0px
+	.footer
+		.menu-main
+			top: 32px
+			min-width: 280px
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	.header_bottom__services
+			h1
+				font-size: em(24px)
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+	.forms
+		margin-top: 30px
+		padding-top: 0px
+	.header_bottom__services
+		padding-bottom: 20px
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.menu-main
+		display: block !important
+	/**/
+
